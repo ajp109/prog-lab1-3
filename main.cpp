@@ -16,7 +16,6 @@ int main()
         printf("var is less than 5\n");
     }
 
-
-    // Do nothing, forever...
-    while (true);
+    // Do nothing, forever, when the program is complete
+    while (true) sleep();
 }
